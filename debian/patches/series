@@ -4,3 +4,6 @@
 0004-Permit-easy-selection-of-a-python-binary-in-the-C-te.patch
 0005-C-Tests-Avoid-creating-a-0-length-array.patch
 0006-The-final-argument-to-mont_select-is-a-size_t.patch
+CVE-2023-52323-1.patch
+CVE-2023-52323-2.patch
+CVE-2023-52323-3.patch

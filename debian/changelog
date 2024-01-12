@@ -1,3 +1,16 @@
+pycryptodome (3.11.0+dfsg1-3ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: side-channel leakage for OAEP decryption
+    - debian/patches/CVE-2023-52323-1.patch: fix side-channel leakage in
+      RSA decryption.
+    - debian/patches/CVE-2023-52323-2.patch: avoid changing signature of
+      RSA._decrypt() method if possible.
+    - debian/patches/CVE-2023-52323-3.patch: use constant-time (faster)
+      padding decoding also for OAEP.
+    - CVE-2023-52323
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 12 Jan 2024 13:06:01 -0500
+
 pycryptodome (3.11.0+dfsg1-3build1) jammy; urgency=high
 
   * No change rebuild for ppc64el baseline bump.
